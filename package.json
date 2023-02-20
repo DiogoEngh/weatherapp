@@ -9,9 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npm run start",
-    "build": "npm run build",
-    "test": "npm run test --env=jsdom",
-    "eject": "npm run eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
