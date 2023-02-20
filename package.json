@@ -1,0 +1,17 @@
+{
+  "name": "weatherapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run start",
+    "build": "npm run build",
+    "test": "npm run test --env=jsdom",
+    "eject": "npm run eject"
+  }
+}

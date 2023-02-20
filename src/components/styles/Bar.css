@@ -1,0 +1,9 @@
+.Bar{
+    width: 1rem;
+}
+
+@media (max-width: 580px) {
+    .Bar{
+        width: .5rem;
+    }
+}

@@ -1,0 +1,76 @@
+.Graphic{
+    height: 16rem;
+    width: 80%;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.Graphic p{
+    color: #eee;
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.mainGraphic{
+    width: 100%;
+    height: 14rem;
+    position: absolute;
+    bottom: 0rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    align-items: end;
+    top: 4rem;
+}
+
+.compare{
+    height: 33%;
+    position: absolute;
+    width: 100%;
+    left: 2rem;
+    border-top: 1px dashed #666;
+}
+
+.compare p{
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    left: -5rem;
+    top: -.5rem;
+}
+
+@media (max-width: 780px) {
+    .Graphic{
+        position: absolute;
+        top: 105rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .Graphic{
+        top: 106rem;
+    }
+    .mainGraphic{
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .mainGraphic{
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+    .compare p{
+        display: none;
+    }
+    .Graphic{
+        width: 90%;
+    }
+    .compare{
+        left: 0rem;
+    }
+}

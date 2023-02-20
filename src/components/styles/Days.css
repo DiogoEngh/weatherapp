@@ -1,0 +1,98 @@
+.Days{
+    position: relative;
+    height: 15rem;
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.Boxs{
+    height: 12rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Selected{
+    width: 100%;
+}
+
+.noSelected{
+    width: 10%;
+}
+
+.optSelected{
+    width: 25%;
+}
+
+.Selected::after, .Others::after{
+    content: "";
+    height: .05rem;
+    width: 90%;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 3rem;
+    left: 5%;
+    border-radius: 50%;
+}
+
+.Today{
+    color: #eee;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.Hour{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 1rem;
+    color: #222;
+    transition: all .5s ease-in-out;
+}
+
+@media (max-width: 880px) {
+    .Days{
+        width: 90%;
+    }
+}
+
+@media (max-width: 780px) {
+    .Days{
+        width: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+    .Days{
+        width: 100%;
+        height: 90rem;
+        position: absolute;
+        top: 10rem;
+    }
+    .Boxs{
+        height: 90rem;
+        width: 100%;
+        position: absolute;
+        top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Boxs div{
+        width: 20rem;
+    }
+    .Today{
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .Days{
+        margin-top: 1rem;
+    }
+}
