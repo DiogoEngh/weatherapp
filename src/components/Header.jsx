@@ -32,11 +32,11 @@ const Header = ({handleSelectCity, selectCity}) => {
   return (
     <header className="Header">
       <div className="Icon">
-        <img src={girlIcon} alt="" />
+        <img src={girlIcon} alt="nada" />
       </div>
       <span>
         <div className="SearchBar">
-          <img style={{
+          <img alt="nada" style={{
             height: "1.5rem",
             width: "1.5rem",
             position: "absolute",
@@ -60,7 +60,7 @@ const Header = ({handleSelectCity, selectCity}) => {
             })}
           </div>
         </div>
-        <div className="Country"><img style={{
+        <div className="Country"><img alt="nada" style={{
             height: "1.5rem",
             width: "1.5rem",
             position: "relative",
@@ -68,10 +68,10 @@ const Header = ({handleSelectCity, selectCity}) => {
           }} src={Marcador} />{ct}, {selectCity}</div>
       </span>
       <div className="Alerts">
-        <img src={Sino} alt="" />
+        <img src={Sino} alt="nada" />
       </div>
       <div className="Menu">
-      <img src={Menu} alt="" />
+      <img src={Menu} alt="nada" />
       </div>
     </header>
   );

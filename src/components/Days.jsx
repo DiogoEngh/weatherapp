@@ -216,7 +216,7 @@ const Days = ({selectCity, handleDataGraphic}) => {
                     height: "3.5rem",
                     marginTop: "2rem"
                 }}>
-                    <img src={dataGenerics[elem].icon} />
+                    <img alt="nada" src={dataGenerics[elem].icon} />
                 </div>
                 <p style={{
                     fontSize: "30px",
@@ -266,7 +266,7 @@ const Days = ({selectCity, handleDataGraphic}) => {
                     top: "4rem",
                   }}
                 >
-                    <img src={data.condition.icon} />
+                    <img alt="nada" src={data.condition.icon} />
                 </div>
                 <p
                   style={{
