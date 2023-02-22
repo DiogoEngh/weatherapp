@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./styles/Header.css";
 import girlIcon from "../assets/girlIcon.jpg"
 import Sino from "../assets/sino.svg"
